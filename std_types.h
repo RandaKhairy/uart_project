@@ -38,4 +38,9 @@ typedef signed long long      sint64;
 typedef float                 float32;
 typedef double                float64;
 
+#define NULL ((void*)0)
+
+#define OK 1
+#define NOK 0
+
 #endif /* STD_TYPE_H_ */
