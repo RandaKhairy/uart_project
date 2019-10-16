@@ -16,6 +16,8 @@
 #include "std_types.h"
 #include "common_macros.h"
 #include "micro_config.h"
+#include <stdlib.h>
+#include <string.h>
 
 /*******************************************************************************
  *                      Preprocessor Macros                                    *

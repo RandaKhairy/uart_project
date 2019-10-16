@@ -133,7 +133,7 @@ void LCD_displayString(const char *Str)
 
 void LCD_goToRowColumn(uint8 row,uint8 col)
 {
-	uint8 Address;
+	uint8 Address = 0;
 	
 	/* first of all calculate the required address */
 	switch(row)
