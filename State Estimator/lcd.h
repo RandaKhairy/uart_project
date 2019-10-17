@@ -18,6 +18,7 @@
 #include "micro_config.h"
 #include <stdlib.h>
 #include <string.h>
+#include <avr/io.h>
 
 /*******************************************************************************
  *                      Preprocessor Macros                                    *

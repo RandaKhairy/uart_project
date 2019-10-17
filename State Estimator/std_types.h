@@ -17,7 +17,6 @@ typedef signed short sint16;
 typedef signed long sint32;
 typedef signed long long sint64;
 
-typedef enum {NOK, OK} Func_status;
 
 #define NULL ((void *) 0)
 

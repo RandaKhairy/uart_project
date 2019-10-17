@@ -1,14 +1,8 @@
- /******************************************************************************
- *
- * Module: Micro - Configuration
- *
- * File Name: Micro_Config.h
- *
- * Description: File include all Microcontroller libraries
- *
- * Author: Mohamed Tarek
- *
- *******************************************************************************/
+/*
+ *  Created on: Sep 20, 2019
+ *      Author: Randa
+ */
+
 
 #ifndef MICRO_CONFIG_H_
 #define MICRO_CONFIG_H_

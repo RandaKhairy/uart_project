@@ -18,6 +18,8 @@ extern volatile uint8 seconds;
 extern volatile uint8 minutes;
 extern volatile uint8 hours;
 
+typedef enum {NOK, OK} Func_status;
+
 Func_status TIMER_init(TIMER_cnfg_t* timerCfg);
 Func_status TIMER_stop(uint8 timer);
 

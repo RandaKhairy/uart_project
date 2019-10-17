@@ -1,20 +1,10 @@
- /******************************************************************************
- *
- * Module: KEYPAD
- *
- * File Name: keypad.c
- *
- * Description: Source file for the Keypad driver
- *
- * Author: Mohamed Tarek
- *
- *******************************************************************************/
+/*
+ *  Created on: Sep 20, 2019
+ *      Author: Randa
+ */
 
 #include "keypad.h"
 
-/*******************************************************************************
- *                      Functions Prototypes(Private)                          *
- *******************************************************************************/
 
 #if (N_col == 3)
 /*
@@ -30,9 +20,7 @@ static uint8 KeyPad_4x3_adjustKeyNumber(uint8 button_number);
 static uint8 KeyPad_4x4_adjustKeyNumber(uint8 button_number);
 #endif
 
-/*******************************************************************************
- *                      Functions Definitions                                  *
- *******************************************************************************/
+
 uint8 KeyPad_getPressedKey(void){
 	uint8 col,row;
 	while(1)
